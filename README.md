@@ -1,4 +1,4 @@
-# **Project Title: Fine-Tuning Large Language Models for Text Classification**
+# **Project Title: Fine-Tuning Large Language Models using LoRA**
 
 ## **Overview**
 This project demonstrates the process of fine-tuning large language models (LLMs) for a text classification task using the IMDb dataset. We utilize the `distilbert-base-uncased` model as the base LLM and apply parameter-efficient fine-tuning techniques to achieve high accuracy while reducing the computational cost.
@@ -21,7 +21,7 @@ To run the code, ensure you have the following installed:
 - `datasets`
 - `peft`
 - `evaluate`
-- `torch`
+- `pytorch`
 
 ### **Installation**
 1. Clone the repository:
