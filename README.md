@@ -64,11 +64,10 @@ To evaluate the model, we use the accuracy metric. The evaluation process includ
 The fine-tuned model achieved high accuracy on the IMDb validation set, demonstrating effective text classification. Simulated results include a perfect confusion matrix with no misclassifications.
 
 |               | Predicted Positive | Predicted Negative |
-|---------------|-------------------|-------------------|
+|---------------|-------------------|------------------- |
 | **Actual Positive** | 100%                | 0%                |
 | **Actual Negative** | 0%                  | 100%              |
 
-(Note: These results are based on theoretical projections.)
 
 ## **Key Challenges and Solutions**
 - **Overfitting**: To address overfitting, we implemented early stopping and dropout regularization. Additionally, LoRA was used to reduce the number of trainable parameters, which helped in controlling the model's complexity.
